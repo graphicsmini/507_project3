@@ -11,7 +11,7 @@ You will see one python files, which is 'SI507_project3.py', and db file, 'sampl
     - *The user will see "Hello, I am going to show you a movie list. So far, we have 6 movies saved."*
   - http://127.0.0.1:5000/movie/new/(title)/(director)/(rating)
     - *As user puts movie title, director and rating in the url, they will be added to the database.*
-    - *For example, if user put this http://127.0.0.1:5000/movie/new/Aquaman/JamesWan/7.2 as a url, they will see "New movie: Aquaman by JamesWan. Check out the URL for ALL movies to see the whole list." in the internet browser.
+    - *For example, if user put this http://127.0.0.1:5000/movie/new/Aquaman/JamesWan/7.2 as a url, they will see "New movie: Aquaman by JamesWan. Check out the URL for ALL movies to see the whole list." in the internet browser.*
   - http://127.0.0.1:5000/all_movies
     - *The user will see all movies like below.*
       - Captain Marvel by Anna Boden - 7.1
