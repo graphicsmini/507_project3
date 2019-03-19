@@ -14,12 +14,12 @@ You will see one python files, which is 'SI507_project3.py', and db file, 'sampl
     - *For example, if user put this 'http://127.0.0.1:5000/movie/new/Aquaman/James Wan/7.2' as a url, they will see "New movie: Aquaman by James Wan. Check out the URL for ALL movies to see the whole list." in the internet browser.
   - http://127.0.0.1:5000/all_movies
     - *The user will see all movies like below.*
-    > Captain Marvel by Anna Boden - 7.1
-    > Spider-man by Sam Raimi - 7.3
-    > The Evil Dead by Sam Raimi - 7.5
-    > Avengers: Infinity War by Anthony Russo - 8.5
-    > Toy Story by John Lasseter - 8.3
-    > La La Land by Damien Chazelle - 8
+      - Captain Marvel by Anna Boden - 7.1
+      - Spider-man by Sam Raimi - 7.3
+      - The Evil Dead by Sam Raimi - 7.5
+      - Avengers: Infinity War by Anthony Russo - 8.5
+      - Toy Story by John Lasseter - 8.3
+      - La La Land by Damien Chazelle - 8
 
 
 ### HOW TO RUN (IN LOCAL COMPUTER)
