@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <title>All movies</title>
+    <style>
+
+    .title {
+      font-family: 'Roboto Mono', monospace;
+      color:blue;
+      line-height: 40px;
+       }
+    </style>
+
+</head>
+<body>
+
+<div class="title">
+<ul>
+{% for sg in all_movies %}
+<li><h1>{{ sg[0] }} by {{ sg[1] }} - {{ sg[2] }}</h1></li>
+{% endfor %}
+</ul>
+
+{% if not all_movies %}
+There are no saved movies to show.
+{% endif %}
+
+
+<h1><a href="{{ url_for('index')}}">Return to home page</a></h1>
+</div>
+
+</body>
+</html>
